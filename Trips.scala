@@ -28,4 +28,3 @@ object Trips {
 case class routeTrips(trip: Trips, route: Option[Route])
 
 case class EnrichedTrip(routeTrips: routeTrips, calendar: Option[Calendar])
-
