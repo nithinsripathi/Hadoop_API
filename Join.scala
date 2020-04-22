@@ -29,3 +29,4 @@ class GenericNestedLoopJoin[L,R](val joinCond: (L, R) => Boolean) extends Join[L
     j <- b
     if joinCond(i,j)
   } yield JoinOutput(i, Some(j))
+}
