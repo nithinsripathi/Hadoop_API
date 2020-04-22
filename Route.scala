@@ -21,4 +21,3 @@ object Route {
       route.route_color + "," +
       route.route_text_color
   }
-}
