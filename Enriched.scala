@@ -68,3 +68,5 @@ object Enriched extends Main with App {
   fs.close()
 }
 
+}
+
